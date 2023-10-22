@@ -15,7 +15,7 @@ from pathlib import Path
 import os
 import dj_database_url
 if os.path.exists("env.py"):
-   import env
+    import env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure--vwnwj2-$e!1k4r&k-afoa-5bh(7(+6odfqtni6x=b1kqj$2r0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-lornavav-pp5-walkthrough-r0lf77k6pn.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['boutique-ado-lv-a5447205f681.herokuapp.com', 'localhost']
 
 
 # Application definition
